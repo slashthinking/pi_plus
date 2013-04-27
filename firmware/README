@@ -14,3 +14,12 @@ below (check the appropriate directories for full licence details):
 * ./modules: pre-built modules for kernel.img
 * ./opt/vc: includes userspace libraries for the VideCoreIV (EGL/GLES/OpenVG 
    etc). See ./opt/vc/LICENCE for licencing terms
+
+这个库包括当前树莓派内核和模块、用户空间类库、和加载器/GPU固件。
+
+* ./boot:*start.elf,bootcode.bin and loader.bin是GPU固件和加载器。kernel.img是内核。
+* ./debug:用于kernel_debug.img的预构建模块
+* ./hardfp 用户态的VideoCoreIV库用于armv6 hardfp ABI。
+* ./modules:用于kernel.img的预构建模块
+* ./opt/vc: 包括用于VideCoreIV的用户空间库(EGL/GLES/OpenVG etc)。
+
